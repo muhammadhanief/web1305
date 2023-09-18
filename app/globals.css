@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+p {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

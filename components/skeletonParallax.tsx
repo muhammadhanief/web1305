@@ -15,16 +15,7 @@ type Props = {
 
 const skeletonParallax = (props: any) => {
   return (
-    <div
-      className={`${props.bg} `}
-      // style={{
-      //   height: "100vh",
-      //   display: "flex",
-      //   justifyContent: "center",
-      //   alignItems: "center",
-      //   scrollSnapAlign: "start",
-      // }}
-    >
+    <div className={`${props.bg} `}>
       <div
         className={`xl:bg-cover text-black bg-fixed bg-center bg-no-repeat ${props.bgHero} bg-contain justify-center items-center `}
       >
@@ -32,7 +23,12 @@ const skeletonParallax = (props: any) => {
           titleParallax={props.titleParallax}
           color={props.color}
         ></TitleParallax>
-        <Content text={props.text} alt={props.alt} img={props.img} />
+        <Content
+          text={props.text}
+          alt={props.alt}
+          img={props.img}
+          content={props.content}
+        />
       </div>
     </div>
   );
