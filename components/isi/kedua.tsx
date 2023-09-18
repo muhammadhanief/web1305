@@ -4,7 +4,7 @@ const kedua = () => {
   return (
     <div className="indent-10">
       <p>
-        PPengukuran kemiskinan yang dilakukan oleh BPS adalah salah satu
+        Pengukuran kemiskinan yang dilakukan oleh BPS adalah salah satu
         instrumen penting dalam merencanakan dan melaksanakan kebijakan sosial
         dan ekonomi di Indonesia
       </p>
