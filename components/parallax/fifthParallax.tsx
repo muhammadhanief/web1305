@@ -8,7 +8,7 @@ const fifthParallax = () => {
     <div>
       <SkeletonParallax
         content={<Kelima></Kelima>}
-        titleParallax="Keparahan Kemiskinan (P2)"
+        titleParallax="Keparahan Kemiskinan (P2)2"
         color="white"
         bg="bg-bg5"
         bgHero="bg-hero5"
