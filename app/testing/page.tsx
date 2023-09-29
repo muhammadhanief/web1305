@@ -5,7 +5,7 @@ import Pertama from "@/public/skrips/pertama.jpeg";
 const page = () => {
   return (
     <div>
-      <Image src={Pertama} alt="" width={300} />
+      <Image src={Pertama} alt="" width={200} />
     </div>
   );
 };
